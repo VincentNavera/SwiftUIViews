@@ -29,7 +29,7 @@ fileprivate let graphAccentColor        = Color(.displayP3, red: 0.011, green: 0
 
 struct LoaderView: View {
     @Environment(\.colorScheme) var colorScheme
-    var percentage: Double
+    @State private var percentage = 0
     var body: some View {
 
         let shadowColor = colorScheme == .dark ? dShadowColor : lShadowColor
@@ -43,7 +43,7 @@ struct LoaderView: View {
                 .shadow(color: shadowColor, radius: defaultRadius)
             VStack {
                 HStack {
-                    Text("loading progress")
+                    Text(percentage != 100 ? "Loading progress" : "Complete!")
                         .font(titleFont)
                         .foregroundColor(textColor)
                     Spacer()
@@ -59,16 +59,29 @@ struct LoaderView: View {
                             .frame(height: 16)
                         RoundedRectangle(cornerRadius: defaultRadius)
                             .fill(graphAccentColor)
-                            .padding(.trailing, 160 - (CGFloat(percentage)/100*160))
+                            .padding(.trailing, 178 - (CGFloat(percentage)/100*178))
                             .frame(height: 16)
+                            .animation(.easeOut)
 
                     }
                     .frame(height: 16)
                 }
+                
             }
             .padding(.horizontal, 24)
         }
-        .frame(height: 86)
+        .frame(width: 226, height: 86)
+        .onTapGesture {
+            let number = Int.random(in: 1...10)
+            if percentage + number <= 100 {
+                percentage += number
+
+            } else { percentage = 100
+
+            }
+        }
+
+
     }
 }
 
@@ -77,13 +90,13 @@ struct LoaderView: View {
 struct LoaderView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            LoaderView(percentage: 100)
+            LoaderView()
                 .padding(100)
                 .fixedSize()
                 .previewLayout(PreviewLayout.sizeThatFits)
                 .preferredColorScheme(.light)
                 .background(lBaseColor)
-            LoaderView(percentage: 1)
+            LoaderView()
                 .padding(100)
                 .fixedSize()
                 .previewLayout(PreviewLayout.sizeThatFits)

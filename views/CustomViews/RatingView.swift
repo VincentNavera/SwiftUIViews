@@ -15,7 +15,7 @@ struct RatingView: View {
     var body: some View {
         HStack {
             ForEach(1 ..< maximumRating + 1) { index in
-                Image(systemName: "waveform.path.ecg")
+                Image(systemName: "star.fill")
                     .foregroundColor(
                         index > rating ? offColor : onColor)
                     .onTapGesture {

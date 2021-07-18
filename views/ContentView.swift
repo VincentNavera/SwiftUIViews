@@ -15,12 +15,20 @@ struct ContentView: View {
 
                 RatingView()
 
-                LoaderView(percentage: 0)
+                LoaderView()
 
                 CardWithDataView(title: "title text", image: "bolt.circle.fill", centerText: "123,-", itemTitle: "item title", itemSubtitle:"item subtitle")
 
                 CardWithImageView(title: "asda", image: "circle.fill", detail: "asda", subtitle: "sdad")
+
                 CardView()
+
+                ViewMoreAnimationView()
+
+                AnimationModifier()
+
+                ViewTransitions()
+
 
 
 

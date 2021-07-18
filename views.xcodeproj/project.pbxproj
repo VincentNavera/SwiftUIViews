@@ -19,7 +19,7 @@
 		BDA22A1026A32476009F9ACE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA22A0F26A32476009F9ACE /* RatingView.swift */; };
 		BDE19E4426A477800050B811 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4326A477800050B811 /* CardView.swift */; };
 		BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4526A47CDA0050B811 /* OnboardingView.swift */; };
-		BDE19E4826A4872D0050B811 /* SizeChangedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4726A4872D0050B811 /* SizeChangedAnimation.swift */; };
+		BDE19E4826A4872D0050B811 /* ViewMoreAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */; };
 		BDE19E4A26A489520050B811 /* ViewTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4926A489520050B811 /* ViewTransitions.swift */; };
 		BDE19E4C26A490BE0050B811 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4B26A490BE0050B811 /* SidebarView.swift */; };
 		BDE19E4E26A4913D0050B811 /* AnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4D26A4913D0050B811 /* AnimationModifier.swift */; };
@@ -40,7 +40,7 @@
 		BDA22A0F26A32476009F9ACE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		BDE19E4326A477800050B811 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BDE19E4526A47CDA0050B811 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		BDE19E4726A4872D0050B811 /* SizeChangedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeChangedAnimation.swift; sourceTree = "<group>"; };
+		BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoreAnimationView.swift; sourceTree = "<group>"; };
 		BDE19E4926A489520050B811 /* ViewTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitions.swift; sourceTree = "<group>"; };
 		BDE19E4B26A490BE0050B811 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		BDE19E4D26A4913D0050B811 /* AnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModifier.swift; sourceTree = "<group>"; };
@@ -99,6 +99,7 @@
 		BDA22A0B26A31014009F9ACE /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */,
 				BDE19E4326A477800050B811 /* CardView.swift */,
 				BD9EE9192694597800BE91FA /* CardWithDataView.swift */,
 				BDE19E4526A47CDA0050B811 /* OnboardingView.swift */,
@@ -122,7 +123,6 @@
 		BDA9236226A32F8B005A27CA /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				BDE19E4726A4872D0050B811 /* SizeChangedAnimation.swift */,
 				BDE19E4926A489520050B811 /* ViewTransitions.swift */,
 				BDE19E4D26A4913D0050B811 /* AnimationModifier.swift */,
 			);
@@ -202,7 +202,7 @@
 				BDE19E4E26A4913D0050B811 /* AnimationModifier.swift in Sources */,
 				BDE19E4A26A489520050B811 /* ViewTransitions.swift in Sources */,
 				BD9EE90B269456B300BE91FA /* ContentView.swift in Sources */,
-				BDE19E4826A4872D0050B811 /* SizeChangedAnimation.swift in Sources */,
+				BDE19E4826A4872D0050B811 /* ViewMoreAnimationView.swift in Sources */,
 				BDE19E4426A477800050B811 /* CardView.swift in Sources */,
 				BD9EE909269456B300BE91FA /* viewsApp.swift in Sources */,
 				BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */,

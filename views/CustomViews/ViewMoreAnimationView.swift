@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SizeChangedAnimation: View {
+struct ViewMoreAnimationView: View {
     @State var show = false
 
     var body: some View {
@@ -28,8 +28,8 @@ struct SizeChangedAnimation: View {
     }
 }
 
-struct SizeChangedAnimation_Previews: PreviewProvider {
+struct ViewMoreAnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        SizeChangedAnimation()
+        ViewMoreAnimationView()
     }
 }
