@@ -8,32 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State fileprivate var isLaunching = true
+
     var body: some View {
-        ScrollView {
-            LazyVStack{
-                TimerView()
+        ZStack {
+            if isLaunching {
 
-                RatingView()
+            LoadingHeart()
+            } else {
+                ScrollView {
+                    LazyVStack{
+                        TimerView()
 
-                LoaderView()
+                        RatingView()
 
-                CardWithDataView(title: "title text", image: "bolt.circle.fill", centerText: "123,-", itemTitle: "item title", itemSubtitle:"item subtitle")
+                        LoaderView()
 
-                CardWithImageView(title: "asda", image: "circle.fill", detail: "asda", subtitle: "sdad")
+                        CardWithDataView(title: "title text", image: "bolt.circle.fill", centerText: "123,-", itemTitle: "item title", itemSubtitle:"item subtitle")
 
-                CardView()
+                        CardWithImageView(title: "asda", image: "circle.fill", detail: "asda", subtitle: "sdad")
 
-                ViewMoreAnimationView()
+                        CardView()
 
-                AnimationModifier()
+                        ViewMoreAnimationView()
 
-                ViewTransitions()
+                        AnimationModifier()
+
+                        ViewTransitions()
 
 
 
 
+                    }
+
+                }
 
             }
+        }
+        .onAppear{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                isLaunching = false
+            }
+            
         }
 
     }
