@@ -22,11 +22,14 @@ struct ViewTransitions: View {
                     .padding()
                     //.transition(.move(edge: .bottom))
 //                    .transition(.scale(scale: 0.1, anchor: .bottomTrailing))
-                    .transition(.slide)
+                    //.transition(.slide)
                     //.transition(.scale)
                     //.transition(.opacity)
-                    //.transition(.offset(x: 300, y: 300))
-                    .zIndex(1)
+                    .transition(.offset(x: 300, y: 300))
+                    //.transition(.asymmetric(insertion: .scale, removal: .opacity))
+                    //.transition(.pivot)
+                    //.zIndex(1)
+                    //.transition(.moveAndScale)
             }
         }
         .onTapGesture {

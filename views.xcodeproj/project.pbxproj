@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */; };
+		BD81BD5226A6094D00B6A8F4 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5126A6094D00B6A8F4 /* Polygon.swift */; };
+		BD81BD5426A60AE100B6A8F4 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5326A60AE100B6A8F4 /* Star.swift */; };
+		BD81BD5626A60BEA00B6A8F4 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5526A60BEA00B6A8F4 /* Triangle.swift */; };
+		BD81BD5C26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5B26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift */; };
 		BD9422A526A5816E005F8FB8 /* CustomRedactedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9422A426A5816E005F8FB8 /* CustomRedactedModifier.swift */; };
 		BD9422A726A5859F005F8FB8 /* LoadingHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9422A626A5859F005F8FB8 /* LoadingHeart.swift */; };
 		BD9422A926A59135005F8FB8 /* GradientEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9422A826A59135005F8FB8 /* GradientEffect.swift */; };
 		BD9422AB26A5A447005F8FB8 /* ThreeDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9422AA26A5A447005F8FB8 /* ThreeDAnimation.swift */; };
 		BD9422AD26A5B223005F8FB8 /* AnimationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9422AC26A5B223005F8FB8 /* AnimationGestures.swift */; };
+		BD9422AF26A5B796005F8FB8 /* CustomTransitionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9422AE26A5B796005F8FB8 /* CustomTransitionModifier.swift */; };
 		BD9EE909269456B300BE91FA /* viewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9EE908269456B300BE91FA /* viewsApp.swift */; };
 		BD9EE90B269456B300BE91FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9EE90A269456B300BE91FA /* ContentView.swift */; };
 		BD9EE90D269456B400BE91FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9EE90C269456B400BE91FA /* Assets.xcassets */; };
@@ -22,6 +28,7 @@
 		BD9EE92026947EB900BE91FA /* customModifierTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9EE91F26947EB900BE91FA /* customModifierTemplate.swift */; };
 		BDA22A0E26A31079009F9ACE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA22A0D26A31079009F9ACE /* TimerView.swift */; };
 		BDA22A1026A32476009F9ACE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA22A0F26A32476009F9ACE /* RatingView.swift */; };
+		BDC9509626A6027300713478 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9509526A6027300713478 /* NotificationView.swift */; };
 		BDE19E4426A477800050B811 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4326A477800050B811 /* CardView.swift */; };
 		BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4526A47CDA0050B811 /* OnboardingView.swift */; };
 		BDE19E4826A4872D0050B811 /* ViewMoreAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */; };
@@ -31,11 +38,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		BD81BD5126A6094D00B6A8F4 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		BD81BD5326A60AE100B6A8F4 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		BD81BD5526A60BEA00B6A8F4 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		BD81BD5B26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceShakeViewModifier.swift; sourceTree = "<group>"; };
 		BD9422A426A5816E005F8FB8 /* CustomRedactedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRedactedModifier.swift; sourceTree = "<group>"; };
 		BD9422A626A5859F005F8FB8 /* LoadingHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingHeart.swift; sourceTree = "<group>"; };
 		BD9422A826A59135005F8FB8 /* GradientEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientEffect.swift; sourceTree = "<group>"; };
 		BD9422AA26A5A447005F8FB8 /* ThreeDAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDAnimation.swift; sourceTree = "<group>"; };
 		BD9422AC26A5B223005F8FB8 /* AnimationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGestures.swift; sourceTree = "<group>"; };
+		BD9422AE26A5B796005F8FB8 /* CustomTransitionModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionModifier.swift; sourceTree = "<group>"; };
 		BD9EE905269456B300BE91FA /* views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = views.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9EE908269456B300BE91FA /* viewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewsApp.swift; sourceTree = "<group>"; };
 		BD9EE90A269456B300BE91FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +61,7 @@
 		BD9EE91F26947EB900BE91FA /* customModifierTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customModifierTemplate.swift; sourceTree = "<group>"; };
 		BDA22A0D26A31079009F9ACE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		BDA22A0F26A32476009F9ACE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		BDC9509526A6027300713478 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		BDE19E4326A477800050B811 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BDE19E4526A47CDA0050B811 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoreAnimationView.swift; sourceTree = "<group>"; };
@@ -110,8 +124,13 @@
 			isa = PBXGroup;
 			children = (
 				BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */,
+				BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */,
+				BD81BD5126A6094D00B6A8F4 /* Polygon.swift */,
+				BD81BD5326A60AE100B6A8F4 /* Star.swift */,
+				BD81BD5526A60BEA00B6A8F4 /* Triangle.swift */,
 				BD9422A626A5859F005F8FB8 /* LoadingHeart.swift */,
 				BDE19E4326A477800050B811 /* CardView.swift */,
+				BDC9509526A6027300713478 /* NotificationView.swift */,
 				BD9EE9192694597800BE91FA /* CardWithDataView.swift */,
 				BDE19E4526A47CDA0050B811 /* OnboardingView.swift */,
 				BD9EE91B2694642D00BE91FA /* CardWithImageView.swift */,
@@ -127,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				BD9EE91F26947EB900BE91FA /* customModifierTemplate.swift */,
+				BD9422AE26A5B796005F8FB8 /* CustomTransitionModifier.swift */,
+				BD81BD5B26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift */,
 				BD9422A426A5816E005F8FB8 /* CustomRedactedModifier.swift */,
 			);
 			path = CustomModifiers;
@@ -214,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA22A0E26A31079009F9ACE /* TimerView.swift in Sources */,
+				BD81BD5426A60AE100B6A8F4 /* Star.swift in Sources */,
 				BD9422AB26A5A447005F8FB8 /* ThreeDAnimation.swift in Sources */,
 				BDE19E4E26A4913D0050B811 /* AnimationModifier.swift in Sources */,
 				BD9422AD26A5B223005F8FB8 /* AnimationGestures.swift in Sources */,
@@ -221,16 +243,22 @@
 				BDE19E4A26A489520050B811 /* ViewTransitions.swift in Sources */,
 				BD9EE90B269456B300BE91FA /* ContentView.swift in Sources */,
 				BDE19E4826A4872D0050B811 /* ViewMoreAnimationView.swift in Sources */,
+				BDC9509626A6027300713478 /* NotificationView.swift in Sources */,
 				BDE19E4426A477800050B811 /* CardView.swift in Sources */,
+				BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */,
 				BD9EE909269456B300BE91FA /* viewsApp.swift in Sources */,
+				BD81BD5C26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift in Sources */,
 				BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */,
 				BDA22A1026A32476009F9ACE /* RatingView.swift in Sources */,
 				BD9EE91E2694663600BE91FA /* LoaderView.swift in Sources */,
+				BD81BD5626A60BEA00B6A8F4 /* Triangle.swift in Sources */,
 				BD9422A526A5816E005F8FB8 /* CustomRedactedModifier.swift in Sources */,
 				BD9EE91C2694642D00BE91FA /* CardWithImageView.swift in Sources */,
+				BD81BD5226A6094D00B6A8F4 /* Polygon.swift in Sources */,
 				BD9EE91A2694597800BE91FA /* CardWithDataView.swift in Sources */,
 				BDE19E4C26A490BE0050B811 /* SidebarView.swift in Sources */,
 				BD9EE92026947EB900BE91FA /* customModifierTemplate.swift in Sources */,
+				BD9422AF26A5B796005F8FB8 /* CustomTransitionModifier.swift in Sources */,
 				BD9422A726A5859F005F8FB8 /* LoadingHeart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
