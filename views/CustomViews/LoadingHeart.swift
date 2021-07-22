@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoadingHeart: View {
-    @State fileprivate var animationAmount: CGFloat = 1
+    @State private var animationAmount: CGFloat = 1
     var body: some View {
         Image(systemName: "heart.fill")
             .resizable(resizingMode: .stretch)

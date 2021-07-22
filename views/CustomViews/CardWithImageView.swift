@@ -34,6 +34,7 @@ fileprivate let subtitleFont            = Font.system(size: 16, weight: .medium,
 struct CardWithImageView: View {
     @Environment(\.colorScheme) var colorScheme
     @State fileprivate var isLoading = true
+
     var title: String
     var image: String
     var detail: String
@@ -73,8 +74,9 @@ struct CardWithImageView: View {
                         .opacity(0.8)
                 }
                 .redacted(when: isLoading, redactionType: .customPlaceholder)
-                .animation(.easeInOut)
-            }
+
+
+
             
             .frame(width: 160, height: 180)
 
@@ -90,6 +92,7 @@ struct CardWithImageView: View {
             }
         }
     }
+}
 
 
 struct CardWithImageView_Previews: PreviewProvider {

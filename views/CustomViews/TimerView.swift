@@ -10,7 +10,7 @@ import SwiftUI
 struct TimerView: View {
     @State private var timerDone = false
     @State private var timeRemaining = 30
-    fileprivate let timer = Timer.publish(every: 1, on: .main, in: .common) //a publisher type
+    let timer = Timer.publish(every: 1, on: .main, in: .common) //a publisher type
         .autoconnect()
     var body: some View {
         Text("\(timeRemaining)")

@@ -9,9 +9,9 @@ import SwiftUI
 
 struct RatingView: View {
     @State private var rating = 0
-    fileprivate let maximumRating = 5
-    fileprivate let onColor = Color.red
-    fileprivate let offColor = Color.gray
+    let maximumRating = 5
+    let onColor = Color.red
+    let offColor = Color.gray
     var body: some View {
         HStack {
             ForEach(1 ..< maximumRating + 1) { index in

@@ -30,6 +30,7 @@ fileprivate let graphAccentColor        = Color(.displayP3, red: 0.011, green: 0
 struct LoaderView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var percentage = 0
+    @State private var number = Int.random(in: 1...10)
     var body: some View {
 
         let shadowColor = colorScheme == .dark ? dShadowColor : lShadowColor
@@ -59,7 +60,7 @@ struct LoaderView: View {
                             .frame(height: 16)
                         RoundedRectangle(cornerRadius: defaultRadius)
                             .fill(graphAccentColor)
-                            .padding(.trailing, 178 - (CGFloat(percentage)/100*178))
+                            .padding(.trailing, 178 - (CGFloat(percentage)/100*178)) //formula for this specific frame size of the main ZStack only
                             .frame(height: 16)
                             .animation(.easeOut)
 
@@ -70,8 +71,8 @@ struct LoaderView: View {
             }
             .padding(.horizontal, 24)
         }
-        .frame(width: 226, height: 86)
-        .onTapGesture {
+        .frame(width: 226, height: 86) //fixed size to not break the padding formula for the loading bar
+        .onTapGesture { //to be replaced by fetchdata
             let number = Int.random(in: 1...10)
             if percentage + number <= 100 {
                 percentage += number
