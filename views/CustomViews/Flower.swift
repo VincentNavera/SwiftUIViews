@@ -41,11 +41,57 @@ struct Flower: Shape {
     }
 }
 
-struct FlowerSlider : View{
+struct FlowerStrokeWithSlider : View{
     @State private var petalOffset = -20.0
     @State private var petalWidth = 100.0
     var body: some View {
         VStack {
+
+            Flower(petalOffset: petalOffset, petalWidth: petalWidth)
+                .stroke(Color.red, lineWidth: 1)
+
+            Text("Offset")
+
+            Slider(value: $petalOffset, in: -40...40)
+                .padding([.horizontal, .bottom])
+            Text("Width")
+            Slider(value: $petalWidth, in: 0...100)
+                .padding(.horizontal)
+        }
+    }
+
+}
+
+struct FlowerFillWithSlider : View{
+    @State private var petalOffset = -20.0
+    @State private var petalWidth = 100.0
+    var body: some View {
+        VStack {
+
+            Flower(petalOffset: petalOffset, petalWidth: petalWidth)
+                .fill(Color.red)
+
+            Text("Offset")
+
+            Slider(value: $petalOffset, in: -40...40)
+                .padding([.horizontal, .bottom])
+            Text("Width")
+            Slider(value: $petalWidth, in: 0...100)
+                .padding(.horizontal)
+        }
+    }
+
+}
+
+struct FlowereoFillWithSlider : View{
+    @State private var petalOffset = -20.0
+    @State private var petalWidth = 100.0
+    var body: some View {
+        VStack {
+
+            Flower(petalOffset: petalOffset, petalWidth: petalWidth)
+                .fill(Color.red, style: FillStyle(eoFill: true))
+
             Text("Offset")
 
             Slider(value: $petalOffset, in: -40...40)
@@ -61,15 +107,9 @@ struct Flower_Previews: PreviewProvider {
 
 
     static var previews: some View {
-        Flower(petalOffset: -20.0, petalWidth: 100.0)
-            .stroke(Color.red, lineWidth: 1)
-            .previewLayout(PreviewLayout.sizeThatFits)
-        Flower(petalOffset: -20.0, petalWidth: 100.0)
-            .fill(Color.red)
-            .previewLayout(PreviewLayout.sizeThatFits)
-        Flower(petalOffset: -20.0, petalWidth: 100.0)
-            .fill(Color.red, style: FillStyle(eoFill: true))
-            .previewLayout(PreviewLayout.sizeThatFits)
+        FlowereoFillWithSlider()
+        FlowerStrokeWithSlider()
+        FlowerFillWithSlider()
     }
 
 }
