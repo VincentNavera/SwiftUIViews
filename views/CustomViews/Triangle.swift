@@ -16,6 +16,7 @@ struct Triangle : Shape {
         path.addLine(to: CGPoint(x: rect.midX, y: rect.minY))
         path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
         path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.minY))
 
         return path
     }
@@ -23,5 +24,7 @@ struct Triangle : Shape {
 struct Triangle_Previews: PreviewProvider {
     static var previews: some View {
         Triangle()
+            .stroke(lineWidth: 20)
+            .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
     }
 }
