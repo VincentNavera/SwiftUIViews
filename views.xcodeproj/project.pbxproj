@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD1A7E8426AC4F4800394927 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8326AC4F4800394927 /* Arc.swift */; };
+		BD1A7E8626AC53CA00394927 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8526AC53CA00394927 /* Flower.swift */; };
 		BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */; };
 		BD81BD5226A6094D00B6A8F4 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5126A6094D00B6A8F4 /* Polygon.swift */; };
 		BD81BD5426A60AE100B6A8F4 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5326A60AE100B6A8F4 /* Star.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		BD1A7E8326AC4F4800394927 /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		BD1A7E8526AC53CA00394927 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		BD81BD5126A6094D00B6A8F4 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
 		BD81BD5326A60AE100B6A8F4 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */,
 				BD81BD5126A6094D00B6A8F4 /* Polygon.swift */,
 				BD1A7E8326AC4F4800394927 /* Arc.swift */,
+				BD1A7E8526AC53CA00394927 /* Flower.swift */,
 				BD81BD5326A60AE100B6A8F4 /* Star.swift */,
 				BD81BD5526A60BEA00B6A8F4 /* Triangle.swift */,
 				BD9422A626A5859F005F8FB8 /* LoadingHeart.swift */,
@@ -251,6 +254,7 @@
 				BD1A7E8426AC4F4800394927 /* Arc.swift in Sources */,
 				BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */,
 				BD9EE909269456B300BE91FA /* viewsApp.swift in Sources */,
+				BD1A7E8626AC53CA00394927 /* Flower.swift in Sources */,
 				BD81BD5C26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift in Sources */,
 				BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */,
 				BDA22A1026A32476009F9ACE /* RatingView.swift in Sources */,
