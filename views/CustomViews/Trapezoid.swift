@@ -28,12 +28,26 @@ struct Trapezoid: Shape {
    }
 }
 
+struct AnimatedTrapezoid: View {
+    @State private var insetAmount: CGFloat = 50
+
+    var body: some View {
+        Trapezoid(insetAmount: insetAmount)
+            .onTapGesture {
+                withAnimation {
+                    self.insetAmount = CGFloat.random(in: 10...90)
+                }
+            }
+
+    }
+}
+
 
 
 
 struct Trapezoid_Previews: PreviewProvider {
     static var previews: some View {
-        Trapezoid(insetAmount: 50)
+        AnimatedTrapezoid()
             .frame(width: 300, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center)
     }
 }
