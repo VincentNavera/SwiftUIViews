@@ -12,6 +12,7 @@
 		BD1A7E8826AC663100394927 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8726AC663100394927 /* ColorCyclingCircle.swift */; };
 		BD1A7E8A26AC693700394927 /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8926AC693700394927 /* Trapezoid.swift */; };
 		BD1A7E8C26AC6E5500394927 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8B26AC6E5500394927 /* Checkerboard.swift */; };
+		BD1A7E8E26AC729400394927 /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8D26AC729400394927 /* Spirograph.swift */; };
 		BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */; };
 		BD81BD5226A6094D00B6A8F4 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5126A6094D00B6A8F4 /* Polygon.swift */; };
 		BD81BD5426A60AE100B6A8F4 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5326A60AE100B6A8F4 /* Star.swift */; };
@@ -48,6 +49,7 @@
 		BD1A7E8726AC663100394927 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 		BD1A7E8926AC693700394927 /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
 		BD1A7E8B26AC6E5500394927 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		BD1A7E8D26AC729400394927 /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
 		BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		BD81BD5126A6094D00B6A8F4 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
 		BD81BD5326A60AE100B6A8F4 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				BD1A7E8526AC53CA00394927 /* Flower.swift */,
 				BD1A7E8926AC693700394927 /* Trapezoid.swift */,
 				BD1A7E8B26AC6E5500394927 /* Checkerboard.swift */,
+				BD1A7E8D26AC729400394927 /* Spirograph.swift */,
 				BD1A7E8726AC663100394927 /* ColorCyclingCircle.swift */,
 				BD81BD5326A60AE100B6A8F4 /* Star.swift */,
 				BD81BD5526A60BEA00B6A8F4 /* Triangle.swift */,
@@ -259,6 +262,7 @@
 				BD9EE90B269456B300BE91FA /* ContentView.swift in Sources */,
 				BDE19E4826A4872D0050B811 /* ViewMoreAnimationView.swift in Sources */,
 				BDC9509626A6027300713478 /* NotificationView.swift in Sources */,
+				BD1A7E8E26AC729400394927 /* Spirograph.swift in Sources */,
 				BDE19E4426A477800050B811 /* CardView.swift in Sources */,
 				BD1A7E8426AC4F4800394927 /* Arc.swift in Sources */,
 				BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */,
