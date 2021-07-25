@@ -35,6 +35,7 @@
 		BDA22A0E26A31079009F9ACE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA22A0D26A31079009F9ACE /* TimerView.swift */; };
 		BDA22A1026A32476009F9ACE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA22A0F26A32476009F9ACE /* RatingView.swift */; };
 		BDC9509626A6027300713478 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9509526A6027300713478 /* NotificationView.swift */; };
+		BDCB4A8126AD951500FE3AB6 /* ColorCyclingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCB4A8026AD951500FE3AB6 /* ColorCyclingRectangle.swift */; };
 		BDE19E4426A477800050B811 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4326A477800050B811 /* CardView.swift */; };
 		BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4526A47CDA0050B811 /* OnboardingView.swift */; };
 		BDE19E4826A4872D0050B811 /* ViewMoreAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */; };
@@ -74,6 +75,7 @@
 		BDA22A0D26A31079009F9ACE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		BDA22A0F26A32476009F9ACE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		BDC9509526A6027300713478 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		BDCB4A8026AD951500FE3AB6 /* ColorCyclingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangle.swift; sourceTree = "<group>"; };
 		BDE19E4326A477800050B811 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BDE19E4526A47CDA0050B811 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BDE19E4726A4872D0050B811 /* ViewMoreAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoreAnimationView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				BD1A7E8B26AC6E5500394927 /* Checkerboard.swift */,
 				BD1A7E8D26AC729400394927 /* Spirograph.swift */,
 				BD1A7E8726AC663100394927 /* ColorCyclingCircle.swift */,
+				BDCB4A8026AD951500FE3AB6 /* ColorCyclingRectangle.swift */,
 				BD81BD5326A60AE100B6A8F4 /* Star.swift */,
 				BD81BD5526A60BEA00B6A8F4 /* Triangle.swift */,
 				BD9422A626A5859F005F8FB8 /* LoadingHeart.swift */,
@@ -270,6 +273,7 @@
 				BD9EE909269456B300BE91FA /* viewsApp.swift in Sources */,
 				BD1A7E8626AC53CA00394927 /* Flower.swift in Sources */,
 				BD81BD5C26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift in Sources */,
+				BDCB4A8126AD951500FE3AB6 /* ColorCyclingRectangle.swift in Sources */,
 				BDE19E4626A47CDA0050B811 /* OnboardingView.swift in Sources */,
 				BDA22A1026A32476009F9ACE /* RatingView.swift in Sources */,
 				BD1A7E8826AC663100394927 /* ColorCyclingCircle.swift in Sources */,
