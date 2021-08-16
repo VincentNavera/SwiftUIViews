@@ -27,7 +27,7 @@ extension AnyTransition {
 
 extension AnyTransition {
     static var moveAndScale: AnyTransition {
-        AnyTransition.move(edge: .bottom).combined(with: .scale)
+        AnyTransition.move(edge: .leading).combined(with: .scale)
     }
 }
 
