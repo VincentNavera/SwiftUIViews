@@ -15,6 +15,7 @@
 		BD1A7E8E26AC729400394927 /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A7E8D26AC729400394927 /* Spirograph.swift */; };
 		BD21619226CA2B44002D574F /* CustomKeyboardModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21619126CA2B44002D574F /* CustomKeyboardModifiers.swift */; };
 		BD21619426CA2B86002D574F /* CustomColorInHexModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21619326CA2B86002D574F /* CustomColorInHexModifier.swift */; };
+		BD21619626CA2BD6002D574F /* CustomFontModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21619526CA2BD6002D574F /* CustomFontModifiers.swift */; };
 		BD2DADA426A6D56C005EB768 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */; };
 		BD81BD5226A6094D00B6A8F4 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5126A6094D00B6A8F4 /* Polygon.swift */; };
 		BD81BD5426A60AE100B6A8F4 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81BD5326A60AE100B6A8F4 /* Star.swift */; };
@@ -55,6 +56,7 @@
 		BD1A7E8D26AC729400394927 /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
 		BD21619126CA2B44002D574F /* CustomKeyboardModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboardModifiers.swift; sourceTree = "<group>"; };
 		BD21619326CA2B86002D574F /* CustomColorInHexModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorInHexModifier.swift; sourceTree = "<group>"; };
+		BD21619526CA2BD6002D574F /* CustomFontModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontModifiers.swift; sourceTree = "<group>"; };
 		BD2DADA326A6D56C005EB768 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		BD81BD5126A6094D00B6A8F4 /* Polygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
 		BD81BD5326A60AE100B6A8F4 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				BD81BD5B26A617AE00B6A8F4 /* DeviceShakeViewModifier.swift */,
 				BD21619126CA2B44002D574F /* CustomKeyboardModifiers.swift */,
 				BD21619326CA2B86002D574F /* CustomColorInHexModifier.swift */,
+				BD21619526CA2BD6002D574F /* CustomFontModifiers.swift */,
 				BD9422A426A5816E005F8FB8 /* CustomRedactedModifier.swift */,
 			);
 			path = CustomModifiers;
@@ -289,6 +292,7 @@
 				BD21619226CA2B44002D574F /* CustomKeyboardModifiers.swift in Sources */,
 				BD81BD5626A60BEA00B6A8F4 /* Triangle.swift in Sources */,
 				BD9422A526A5816E005F8FB8 /* CustomRedactedModifier.swift in Sources */,
+				BD21619626CA2BD6002D574F /* CustomFontModifiers.swift in Sources */,
 				BD9EE91C2694642D00BE91FA /* CardWithImageView.swift in Sources */,
 				BD81BD5226A6094D00B6A8F4 /* Polygon.swift in Sources */,
 				BD9EE91A2694597800BE91FA /* CardWithDataView.swift in Sources */,
